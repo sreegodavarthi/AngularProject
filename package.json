@@ -1,0 +1,13 @@
+{
+  "name": "angularproject",
+  "version": "1.0.0",
+  "description": "My Data - A Data Driven App for scheduling meetups",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreegodavarthi/AngularProject.git"
+  },
+  "author": "Sree",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
