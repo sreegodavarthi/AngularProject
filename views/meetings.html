@@ -2,6 +2,7 @@
 
   <div class="textintro">
     <h1>Add Meeting</h1>
+    <p> Schedule a meeting and hit +</p>
     <form name = "myform" class="formgroup addmeeting cf" ng-submit = "addMeeting()" novalidate>
       <div class="inputwrapper">
         <input type="text" name="meetingname" placeholder="Meeting Name" ng-model="meetingname" ng-required="true">
@@ -11,4 +12,13 @@
     </form>
   </div>
 
+  <div class="card meetings cf">
+    <h2>Your Meetings</h2>
+    <div class="meeting" ng-repeat="(key,meeting) in meetings">
+      <button class="btn btn-delete tooltip" ng-click="deleteMeeting(key)"><span> Delete this meeting</span></button>
+      <span class="text">{{meeting.name}}</span>
+    </div>
+  </div>
+  
 </div><!-- meetings cf -->
+
