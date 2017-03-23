@@ -1,2 +1,2 @@
 # angularproject
-My Data - A data driven app for scheduling meetings (App in progress)
+My Data - A data driven app for scheduling meetings and reward random checked-in users with prizes (App in progress)
