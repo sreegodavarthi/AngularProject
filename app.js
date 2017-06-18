@@ -8,7 +8,7 @@ app.use('/views', express.static('./views'));
 app.use('/css', express.static('./css'));
 
 
-app.listen(7878, function() {
+app.listen(process.env.PORT || 7878, function() {
     console.log('server listening at http://localhost:7878');
 });
 
