@@ -6,6 +6,7 @@ var app = express();
 app.use('/js', express.static('./js'));
 app.use('/views', express.static('./views'));
 app.use('/css', express.static('./css'));
+app.use('/images', express.static('./images'));
 
 
 app.listen(process.env.PORT || 7878, function() {
