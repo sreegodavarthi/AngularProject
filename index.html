@@ -9,10 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="google-site-verification" content="GqSjqBJigDj0_-jvZBm_PlLnoiLtBxC8q2gdnmOz-K8" />
     <meta name="Description" content="A data driven app for scheduling meetings" />
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "https://schedule-meetings.herokuapp.com",
+            "name": "Angular Application For Scheduling Meetings"
+        }
+    </script>
     <script src="js/lib/angular/angular.min.js"></script>
     <script src="js/lib/angular/angular-route.min.js"></script>
     <script src="js/lib/angular/angular-animate.min.js"></script>
-
     <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
     <script>
         // Initialize Firebase
@@ -25,15 +32,12 @@
         };
         firebase.initializeApp(config);
     </script>
-
     <script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
-
     <script src="js/app.js"></script>
     <script src="js/services/authentication.js"></script>
     <script src="js/controllers/registration.js"></script>
     <script src="js/controllers/meetings.js"></script>
     <script src="js/controllers/checkins.js"></script>
-
 </head>
 
 <body>
@@ -41,13 +45,11 @@
         <nav class="cf" ng-include="'views/nav.html'"></nav>
     </header>
     <div class="page">
-
         <div class="userinfo" ng-show="currentUser" ng-controller="RegistrationController">
             <!--<span>Angular App For Scheduling Meetings</span>-->
             <span class="userinfo">Hi {{currentUser.firstname}}</span>
             <a ng-href="#/login" ng-click="logout()">logout</a>
         </div>
-
         <main class="cf" ng-view>
         </main>
     </div>
