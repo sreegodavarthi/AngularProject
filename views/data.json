@@ -1,0 +1,111 @@
+{
+    "records": [{
+        "CAR": "ALFA ROMEO",
+        "MODEL": "2000 4 DOOR BERLINA",
+        "SALES": "4800",
+        "DEALER_COST": "4915",
+        "RETAIL_COST": "5925"
+    }, {
+        "CAR": "ALFA ROMEO",
+        "MODEL": "2000 GT VELOCE",
+        "SALES": "12400",
+        "DEALER_COST": "5660",
+        "RETAIL_COST": "6820"
+    }, {
+        "CAR": "ALFA ROMEO",
+        "MODEL": "2000 SPIDER VELOCE",
+        "SALES": "13000",
+        "DEALER_COST": "5660",
+        "RETAIL_COST": "6820"
+    }, {
+        "CAR": "AUDI",
+        "MODEL": "100 LS 2 DOOR AUTO",
+        "SALES": "7800",
+        "DEALER_COST": "5063",
+        "RETAIL_COST": "5970"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "2002 2 DOOR",
+        "SALES": "8950",
+        "DEALER_COST": "5800",
+        "RETAIL_COST": "5940"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "2002 2 DOOR AUTO",
+        "SALES": "8900",
+        "DEALER_COST": "6000",
+        "RETAIL_COST": "6355"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "3.0 SI 4 DOOR",
+        "SALES": "14000",
+        "DEALER_COST": "10000",
+        "RETAIL_COST": "13752"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "3.0 SI 4 DOOR AUTO",
+        "SALES": "18940",
+        "DEALER_COST": "11000",
+        "RETAIL_COST": "14123"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "530I 4 DOOR",
+        "SALES": "14000",
+        "DEALER_COST": "8300",
+        "RETAIL_COST": "9097"
+    }, {
+        "CAR": "BMW",
+        "MODEL": "530I 4 DOOR AUTO",
+        "SALES": "15600",
+        "DEALER_COST": "8400",
+        "RETAIL_COST": "9495"
+    }, {
+        "CAR": "DATSUN",
+        "MODEL": "B210 2 DOOR AUTO",
+        "SALES": "43000",
+        "DEALER_COST": "2626",
+        "RETAIL_COST": "3139"
+    }, {
+        "CAR": "JAGUAR",
+        "MODEL": "V12XKE AUTO",
+        "SALES": "0",
+        "DEALER_COST": "7427",
+        "RETAIL_COST": "8878"
+    }, {
+        "CAR": "JAGUAR",
+        "MODEL": "XJ12L AUTO",
+        "SALES": "12000",
+        "DEALER_COST": "11194",
+        "RETAIL_COST": "13491"
+    }, {
+        "CAR": "JENSEN",
+        "MODEL": "INTERCEPTOR III",
+        "SALES": "0",
+        "DEALER_COST": "14940",
+        "RETAIL_COST": "17850"
+    }, {
+        "CAR": "MASERATI",
+        "MODEL": "DORA 2 DOOR",
+        "SALES": "0",
+        "DEALER_COST": "25000",
+        "RETAIL_COST": "31500"
+    }, {
+        "CAR": "PEUGEOT",
+        "MODEL": "504 4 DOOR",
+        "SALES": "0",
+        "DEALER_COST": "4631",
+        "RETAIL_COST": "5610"
+    }, {
+        "CAR": "TOYOTA",
+        "MODEL": "COROLLA 4 DOOR DIX AUTO",
+        "SALES": "35030",
+        "DEALER_COST": "2886",
+        "RETAIL_COST": "3339"
+    }, {
+        "CAR": "TRIUMPH",
+        "MODEL": "TR7",
+        "SALES": "0",
+        "DEALER_COST": "4292",
+        "RETAIL_COST": "5100"
+    }]
+}
