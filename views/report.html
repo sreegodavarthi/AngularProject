@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<head>
+    <title>Car Sales Report</title>
+</head>
+
+<section style="padding-top:0px;">
+    <div class="carsales">
+        <h2>Car Sales Report</h2>
+    </div>
+
+    <table class="table" ng-if="isDataExists">
+        <thead class="tableheadcar">
+            <th class="tableheadcar">CAR</th>
+            <th class="tableheadcar">MODEL</th>
+            <th class="tableheadcar">SALES</th>
+            <th class="tableheadcar">DEALER_COST</th>
+            <th class="tableheadcar">RETAIL_COST</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="report in reportData">
+                <td>{{report.CAR}}</td>
+                <td>{{report.MODEL}}</td>
+                <td>{{report.SALES}}</td>
+                <td>{{report.DEALER_COST}}</td>
+                <td>{{report.RETAIL_COST}}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
